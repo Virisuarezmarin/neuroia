@@ -1,0 +1,19 @@
+# requirements.txt
+# Para el dashboard de Streamlit sobre IA, neuroética y neurodegenerativas
+
+streamlit>=1.38.0          # versión estable reciente (octubre 2025 aprox.)
+pandas>=2.2.3              # aunque no lo usamos aún, es muy común agregarlo después
+numpy>=1.26.4              # útil si más adelante añades visualizaciones o cálculos
+matplotlib>=3.9.2          # para posibles gráficos (ej. precisión de modelos, parámetros de marcha)
+plotly>=5.24.1             # alternativa interactiva muy usada en dashboards científicos
+altair>=5.4.1              # motor de visualización nativo de Streamlit (muy recomendado)
+
+# Opcionales pero muy útiles para mejorar la apariencia y funcionalidad
+streamlit-extras>=0.5.0    # tarjetas, espaciado, columnas avanzadas, etc.
+streamlit-option-menu>=0.3.12  # menús laterales más bonitos (si quieres reemplazar el selectbox)
+markdown>=3.7              # ya viene con Python, pero por si acaso
+
+# Para desarrollo y depuración (opcional pero recomendado)
+black>=24.8.0              # formateador de código
+ruff>=0.6.5                # linter rápido y moderno (sustituto de flake8 + isort)
+mypy>=1.11.2               # chequeo de tipos estático
